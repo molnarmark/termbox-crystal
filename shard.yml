@@ -3,8 +3,9 @@ version: 0.1.0
 
 authors:
   - Andrew Suzuki <andrew.b.suzuki@gmail.com>
+  
 scripts:
-  postinstall: ./install-termbox.sh
+  postinstall: sh install-termbox.sh
 
 
 license: MIT
